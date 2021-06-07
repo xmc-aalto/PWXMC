@@ -1,0 +1,78 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "args": "../eurlex-xmlcnn/output/ ../eurlex-xmlcnn/final-output/top1.out ../eurlex-xmlcnn/final-output/top3.out ../eurlex-xmlcnn/final-output/top5.out ../eurlex-xmlcnn/inv_prop.txt ../eurlex-xmlcnn/final-output/top1-prop.out ../eurlex-xmlcnn/final-output/top3-prop.out ../eurlex-xmlcnn/final-output/top5-prop.out"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-DistributedPredictor<prepostprocessing-pro_18c94b2b>",
+            "request": "launch",
+            "mainClass": "DistributedPredictor",
+            "projectName": "prepostprocessing-pro_18c94b2b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-FeatureRemapper<prepostprocessing-pro_18c94b2b>",
+            "request": "launch",
+            "mainClass": "FeatureRemapper",
+            "projectName": "prepostprocessing-pro_18c94b2b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LabelExtractor<prepostprocessing-pro_18c94b2b>",
+            "request": "launch",
+            "mainClass": "LabelExtractor",
+            "projectName": "prepostprocessing-pro_18c94b2b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LabelRelabeler<prepostprocessing-pro_18c94b2b>",
+            "request": "launch",
+            "mainClass": "LabelRelabeler",
+            "projectName": "prepostprocessing-pro_18c94b2b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LabelScoreTuple<prepostprocessing-pro_18c94b2b>",
+            "request": "launch",
+            "mainClass": "LabelScoreTuple",
+            "projectName": "prepostprocessing-pro_18c94b2b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-MultiLabelMetrics<prepostprocessing-pro_18c94b2b>",
+            "request": "launch",
+            "mainClass": "MultiLabelMetrics",
+            "projectName": "prepostprocessing-pro_18c94b2b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-PropensityComputer<prepostprocessing-pro_18c94b2b>",
+            "request": "launch",
+            "mainClass": "PropensityComputer",
+            "projectName": "prepostprocessing-pro_18c94b2b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SamplesPerClassCounter<prepostprocessing-pro_18c94b2b>",
+            "request": "launch",
+            "mainClass": "SamplesPerClassCounter",
+            "projectName": "prepostprocessing-pro_18c94b2b"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-TfIdfCalculator<prepostprocessing-pro_18c94b2b>",
+            "request": "launch",
+            "mainClass": "TfIdfCalculator",
+            "projectName": "prepostprocessing-pro_18c94b2b"
+        }
+    ]
+}
