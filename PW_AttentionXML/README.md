@@ -1,4 +1,4 @@
-Pytorch implementation for unibased variants of AttentionXML in [Convex Surrogates for Unbiased Loss Functions in Extreme Classification With Missing Labels](https://dl.acm.org/doi/pdf/10.1145/3442381.3450139)
+Pytorch implementation for propensity-weighted variants of AttentionXML in [Convex Surrogates for Unbiased Loss Functions in Extreme Classification With Missing Labels](https://dl.acm.org/doi/pdf/10.1145/3442381.3450139)
 
 The code is adapted from the source code of AttentionXML [1]
 

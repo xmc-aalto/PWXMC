@@ -145,6 +145,7 @@ class Model(object):
             per_cls_weights = per_cls_weights * num_labels
         elif reweighting == 'PW-cb':
             eff_num = 1.0 - torch.pow(beta, cls_num_list)
+            cb_term = torch.where(cls_num_list == 0, cls_num_list, (1.0 - beta) / eff_num)
             per_cls_weights = cb_term*((2.0*inv_prop)-1.0)
             per_cls_weights = per_cls_weights/torch.sum(per_cls_weights)
             per_cls_weights = per_cls_weights * num_labels
